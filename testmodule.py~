@@ -1,0 +1,7 @@
+import module, functions
+
+
+module.school("Andela")
+module.school("Africa Coding Academy")
+
+functions.multiply(x:4,y:5)

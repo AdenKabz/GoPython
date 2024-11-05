@@ -1,0 +1,24 @@
+#polymorphism involves having one method across different classes but the implementation is different
+
+class Rectangle:
+    def shape(self):
+        print("Drawing a rectamgle")
+
+class Rhombus:
+    def shape(self):
+        print("Drawing a rhombus")
+
+class Parallelogram:
+    def shape(self):
+        print("Drawing a parallelogram")
+
+
+#creating objects
+r=Rectangle()
+r.shape()
+
+rhom=Rhombus()
+rhom.shape()
+
+p=Parallelogram()
+p.shape()
